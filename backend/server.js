@@ -25,11 +25,16 @@ const __dirname = path.dirname(__filename);
 // ✅ CORS Configuration — to allow Authorization header
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"], // ✅ dono ports allowed
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:3001",
+      "https://finsightai-wflm.vercel.app",   // ✅ Vercel frontend URL
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
+
 
 
 // ✅ Middleware
