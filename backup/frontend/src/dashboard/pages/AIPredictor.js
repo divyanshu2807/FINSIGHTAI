@@ -293,7 +293,7 @@ const styles = {
 };
 
 // ---------- BACKEND CONFIG ----------
-const PREDICT_API = "http://localhost:5000/api/predict";
+const PREDICT_API = "https://finsightai-1.onrender.com/api/predict";
 
 // ---------- STOCK LIST + CHART HELPER ----------
 const baseMockStocks = [

@@ -47,7 +47,7 @@ const Register = ({ onLoginClick }) => {
     setLoading(true);
 
     // ✅ BACKEND KA ACTUAL ROUTE
-    const REGISTER_URL = "http://localhost:5000/api/users/register";
+    const REGISTER_URL = "https://finsightai-1.onrender.com/api/users/register";
 
     // ✅ Backend ko jo data chahiye (common pattern: name, email, password)
     const requestBody = {

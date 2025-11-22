@@ -1,6 +1,5 @@
 // src/services/walletService.js
-
-const API_URL = "http://localhost:5000/api/wallet";
+const API_URL = "https://finsightai-1.onrender.com/api/wallet";
 
 const getAuthHeaders = (token) => {
   const authToken = token || localStorage.getItem("token");

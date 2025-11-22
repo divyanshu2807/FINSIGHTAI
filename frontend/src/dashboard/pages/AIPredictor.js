@@ -292,9 +292,7 @@ const styles = {
   },
 };
 
-// ---------- BACKEND CONFIG ----------
-// OLD
-// const PREDICT_API = "http://localhost:5000/api/predict";
+
 
 // NEW
 const PREDICT_API = "https://finsightai-1.onrender.com/api/predict";

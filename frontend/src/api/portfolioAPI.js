@@ -1,6 +1,6 @@
 // src/api/portfolioAPI.js
 
-const API_URL = "http://localhost:5000/api/portfolio";
+const API_URL = "https://finsightai-1.onrender.com/api/portfolio";
 
 const getAuthHeaders = () => {
   const token = localStorage.getItem("token");
