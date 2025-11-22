@@ -27,11 +27,13 @@ const Login = ({ onRegisterClick, onLoginSuccess }) => {
     setLoading(true);
 
     // ✅ Possible login URLs – jo sahi hoga, wahi success dega
-    const LOGIN_URLS = [
-      "http://localhost:5000/api/auth/login",
-      "http://localhost:5000/api/users/login",
-      "http://localhost:5000/api/login",
-    ];
+  const LOGIN_URLS = [
+  "https://finsightai-1.onrender.com/api/auth/login",
+  "https://finsightai-1.onrender.com/api/users/login",
+  "https://finsightai-1.onrender.com/api/login",
+];
+
+  
 
     const requestBody = {
       email: form.email,
